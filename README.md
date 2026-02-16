@@ -1,43 +1,22 @@
-**📊 HR Analytics & Attrition Intelligence Dashboard**
-
+**📊 HR Analytics Dashboard – Attrition Analysis**
 **📌 Project Overview**
-
-This project analyzes employee attrition patterns to identify key drivers behind workforce turnover.
-The dashboard provides HR decision-makers with actionable insights into employee retention, satisfaction, salary distribution, and tenure trends.
-
-Built using Power BI, this solution integrates ETL, data modeling, and advanced DAX measures to deliver an interactive executive-level HR analytics dashboard.
+This project focuses on analyzing employee attrition patterns using SQL and Power BI. The objective was to identify key factors influencing employee turnover and provide actionable insights to support HR decision-making.
+The analysis was conducted on an HR dataset containing employee demographics, salary details, job roles, tenure, and attrition status.
 
 **🎯 Business Problem**
-
-Employee attrition increases recruitment cost, impacts productivity, and affects organizational stability.
-The objective of this project is to:
-Measure overall attrition rate
+Employee attrition impacts organizational productivity, hiring costs, and workforce stability.
+The goal of this project was to:
+Calculate overall attrition rate
+Identify departments with high employee turnover
+Analyze salary impact on attrition
+Understand tenure-based attrition trends
+Evaluate job role and gender-based attrition patterns
 Identify high-risk employee segments
-Analyze attrition across gender, department, salary band, and tenure
-Provide insights for data-driven HR strategies
 
 **🛠 Tech Stack**
-Power BI (Dashboard & DAX)
-Power Query (Data Cleaning & Transformation)
-DAX (KPI & Risk Calculations)
-SQL (Data Analysis Queries)
-IBM HR Analytics Dataset (Kaggle)
-
-**🧹 Data Cleaning & Transformation (Power Query)**
-Performed ETL operations including:
-Removed redundant columns (EmployeeCount, Over18, StandardHours)
-Standardized text formatting
-Corrected data types
-Created Salary Band segmentation
-Created Tenure Buckets
-Generated Risk Score categories
-
-**📊 Key KPIs**
-Total Employees
-Total Attrition
-Attrition Rate %
-Average Salary
-Average Tenure
+SQL (MySQL) – Data exploration & analysis
+Power BI – Data visualization & dashboard creation
+Power Query – Data cleaning & transformation
 
 **📈 Dashboard Features**
 🔹 Attrition Rate by Gender
@@ -53,12 +32,19 @@ Analyzes attrition across job levels and roles.
 🔹 Attrition Count by Job Role
 Ranks high-risk roles for targeted intervention.
 
-**🧠 Key Insights**
-Attrition is highest among employees with low tenure (0–3 years).
-Overtime employees show significantly higher exit probability.
-Certain job roles contribute disproportionately to total attrition.
-Salary band segmentation reveals higher churn in lower income groups.
-Gender attrition distribution remains balanced but requires monitoring.
+**💡 Business Recommendations**
+Improve onboarding and engagement programs for new employees.
+Reevaluate compensation strategy for lower salary bands.
+Reduce excessive overtime workload.
+Implement retention strategies for high-risk job roles.
+Develop predictive attrition monitoring using risk scores.
+
+**🚀 What This Project Demonstrates**
+Strong SQL querying skills (aggregations, CASE, GROUP BY, window functions)
+Business KPI formulation
+Analytical thinking & segmentation
+Data storytelling using dashboards
+End-to-end data analysis workflow
 
 **📷 Dashboard Preview**
 ![Alt text](https://github.com/AniikettJ/HR-ANALYTICS-DASHBOARD/blob/main/Screenshot%202026-02-12%20234830.png)
