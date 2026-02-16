@@ -1,4 +1,5 @@
 **📊 HR Analytics Dashboard – Attrition Analysis**
+
 **📌 Project Overview**
 This project focuses on analyzing employee attrition patterns using SQL and Power BI. The objective was to identify key factors influencing employee turnover and provide actionable insights to support HR decision-making.
 The analysis was conducted on an HR dataset containing employee demographics, salary details, job roles, tenure, and attrition status.
@@ -47,4 +48,4 @@ Data storytelling using dashboards
 End-to-end data analysis workflow
 
 **📷 Dashboard Preview**
-![Alt text](https://github.com/AniikettJ/HR-ANALYTICS-DASHBOARD/blob/main/Screenshot%202026-02-12%20234830.png)
+![Alt text](https://github.com/AniikettJ/HR-ANALYTICS-DASHBOARD/blob/main/SNAPSHOT.png)
