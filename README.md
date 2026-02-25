@@ -1,51 +1,65 @@
-**📊 HR Analytics Dashboard – Attrition Analysis**
+# 📊HR Analytics Dashboard – Attrition Analysis
 
-**📌 Project Overview**
-This project focuses on analyzing employee attrition patterns using SQL and Power BI. The objective was to identify key factors influencing employee turnover and provide actionable insights to support HR decision-making.
-The analysis was conducted on an HR dataset containing employee demographics, salary details, job roles, tenure, and attrition status.
+## 📌 Project Overview
+This project focuses on analyzing HR data to identify workforce trends, attrition patterns, and employee performance insights.
+The goal was to transform raw HR data into meaningful business insights using SQL for analysis and Power BI for interactive visualization.
 
-**🎯 Business Problem**
-Employee attrition impacts organizational productivity, hiring costs, and workforce stability.
-The goal of this project was to:
-Calculate overall attrition rate
-Identify departments with high employee turnover
-Analyze salary impact on attrition
-Understand tenure-based attrition trends
-Evaluate job role and gender-based attrition patterns
-Identify high-risk employee segments
+### 🎯 Objectives
+Analyze employee attrition trends
+Identify key factors affecting employee turnover
+Study workforce distribution by department, gender, and job role
+Provide HR decision-support insights through interactive dashboards
 
-**🛠 Tech Stack**
-SQL (MySQL) – Data exploration & analysis
-Power BI – Data visualization & dashboard creation
-Power Query – Data cleaning & transformation
+### 🛠 Tech Stack
+SQL – Data Cleaning, Data Validation, Aggregations, Joins
+Power BI – Dashboard Creation & Data Visualization
+Power Query – Data Transformation
 
-**📈 Dashboard Features**
-🔹 Attrition Rate by Gender
-Analyzes demographic impact on employee turnover.
-🔹 Attrition Distribution by Education Field
-Identifies educational backgrounds with higher exit trends.
-🔹 Attrition by Years at Company
-Highlights early-career attrition risks.
-🔹 Overtime vs Attrition Analysis
-Shows strong correlation between overtime and employee exits.
-🔹 Job Role Attrition Matrix
-Analyzes attrition across job levels and roles.
-🔹 Attrition Count by Job Role
-Ranks high-risk roles for targeted intervention.
+### 📂 Data Analysis Performed (SQL)
+✔ Data Cleaning & Validation<br>
+Checked total record counts<br>
+Validated missing/null values<br>
+Standardized data types (Date, Numeric fields)<br>
 
-**💡 Business Recommendations**
-Improve onboarding and engagement programs for new employees.
-Reevaluate compensation strategy for lower salary bands.
-Reduce excessive overtime workload.
-Implement retention strategies for high-risk job roles.
-Develop predictive attrition monitoring using risk scores.
+✔ Exploratory Data Analysis (EDA)<br>
+Calculated total employees<br>
+Calculated total attrition count<br>
+Computed attrition rate (%)<br>
+Analyzed average age and salary<br>
+Department-wise employee distribution<br>
+Gender-wise workforce breakdown<br>
 
-**🚀 What This Project Demonstrates**
-Strong SQL querying skills (aggregations, CASE, GROUP BY, window functions)
-Business KPI formulation
-Analytical thinking & segmentation
-Data storytelling using dashboards
-End-to-end data analysis workflow
+✔ Business Insights Queries<br>
+Attrition by Department<br>
+Attrition by Gender<br>
+Attrition by Job Role<br>
+Salary comparison of attrition vs non-attrition employees<br>
+Experience-based attrition trends<br>
+
+### 📊 Dashboard Features (Power BI)
+The interactive dashboard includes:<br>
+**KPI Cards:**<br>
+Total Employees<br>
+Total Attrition<br>
+Attrition Rate (%)<br>
+Average Salary<br>
+Average Age<br>
+**Visualizations:**<br>
+Attrition by Department<br>
+Attrition by Gender<br>
+Attrition by Job Role<br>
+Salary Distribution<br>
+Employee Count by Age Group<br>
+**Slicers:**<br>
+Department<br>
+Gender<br>
+Job Role<br>
+
+### 📈 Key Insights Derived
+Identified departments with highest attrition<br>
+Observed salary impact on attrition trends<br>
+Analyzed gender-based attrition patterns<br>
+Found experience and job-role related turnover trends<br>
 
 **📷 Dashboard Preview**
 ![Alt text](https://github.com/AniikettJ/HR-ANALYTICS-DASHBOARD/blob/main/SNAPSHOT.png)
